@@ -1,0 +1,3 @@
+[submodule "grammars/tree-sitter-beancount"]
+	path = grammars/tree-sitter-beancount
+	url = https://github.com/polarmutex/tree-sitter-beancount

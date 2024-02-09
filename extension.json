@@ -1,0 +1,12 @@
+{
+  "name": "Beancount",
+  "version": "0.0.1",
+  "authors": [
+    "Max Brunsfeld <max@zed.dev>",
+    "Marshall Bowers <marshall@zed.dev>"
+  ],
+  "description": "Beancount language support for Zed",
+  "repository": "https://github.com/zed-extensions/beancount",
+  "grammars": ["grammars/tree-sitter-beancount"],
+  "languages": ["languages/beancount"]
+}
