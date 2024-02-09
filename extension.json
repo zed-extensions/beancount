@@ -6,7 +6,5 @@
     "Marshall Bowers <marshall@zed.dev>"
   ],
   "description": "Beancount language support for Zed",
-  "repository": "https://github.com/zed-extensions/beancount",
-  "grammars": ["grammars/tree-sitter-beancount"],
-  "languages": ["languages/beancount"]
+  "repository": "https://github.com/zed-extensions/beancount"
 }
