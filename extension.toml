@@ -1,0 +1,11 @@
+id = "beancount"
+name = "Beancount"
+description = "Beancount language support for Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Max Brunsfeld <max@zed.dev>", "Marshall Bowers <marshall@zed.dev>"]
+repository = "https://github.com/zed-extensions/beancount"
+
+[grammars.beancount]
+repository = "https://github.com/polarmutex/tree-sitter-beancount"
+commit = "c25f8034c977681653a8acd541c8b4877a58f474"
