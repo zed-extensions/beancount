@@ -1,7 +1,7 @@
 id = "beancount"
 name = "Beancount"
 description = "Beancount language support for Zed"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Max Brunsfeld <max@zed.dev>", "Marshall Bowers <marshall@zed.dev>"]
 repository = "https://github.com/zed-extensions/beancount"
