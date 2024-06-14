@@ -1,4 +1,5 @@
 name = "Beancount"
 grammar = "beancount"
-path_suffixes = ["beancount"]
+path_suffixes = ["beancount", "bean"]
+line_comments = ["; "]
 brackets = [{ start = "\"", end = "\"", close = false, newline = false }]
