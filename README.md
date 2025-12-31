@@ -33,3 +33,28 @@ You can configure the beancount-language-server by adding initialization options
   }
 }
 ```
+
+### Custom Binary Path
+
+By default, the extension searches for `beancount-language-server` in your system PATH. If you need to use a custom binary location, you can configure it:
+
+```json
+{
+  "lsp": {
+    "beancount": {
+      "binary": {
+        "path": "/custom/path/to/beancount-language-server",
+        "arguments": ["--debug"],
+        "env": {
+          "CUSTOM_VAR": "value"
+        }
+      }
+    }
+  }
+}
+```
+
+Configuration options:
+- `path`: Absolute path to the beancount-language-server binary (optional, defaults to searching PATH)
+- `arguments`: Additional command-line arguments to pass to the language server (optional)
+- `env`: Additional environment variables to set for the language server process (optional)
