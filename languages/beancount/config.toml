@@ -3,3 +3,6 @@ grammar = "beancount"
 path_suffixes = ["beancount", "bean"]
 line_comments = ["; "]
 brackets = [{ start = "\"", end = "\"", close = false, newline = false }]
+tab_size = 2
+increase_indent_pattern = '^\d{4}[-/]\d{2}[-/]\d{2}\s+(?:txn|.)(?:\s|$)'
+decrease_indent_pattern = '^\s*(?:\d{4}[-/]\d{2}[-/]\d{2}|option|plugin|popmeta|poptag|pushmeta|pushtag)\b'
